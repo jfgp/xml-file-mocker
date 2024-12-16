@@ -155,7 +155,7 @@ def process_node(node, target_node, desired_count):
     for child in list(node):
         process_node(child, target_node, desired_count)
 
-gg
+
 def mock_xml(input_file, output_file, target_node, desired_count):
     """
     Processes the XML file to generate mock data and adjust the number of
